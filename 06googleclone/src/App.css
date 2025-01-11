@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.toolbar {
+  display: flex;
+  padding: 10px;
+  background-color: #f1f3f4;
+}
+.formula-bar {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.grid {
+  display: grid;
+  grid-template-rows: repeat(20, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  border: 1px solid #ccc;
+}
+.cell {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  user-select: none;
+}
+.cell:hover {
+  background-color: #f9f9f9;
+}
